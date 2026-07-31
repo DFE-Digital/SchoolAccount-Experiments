@@ -1,6 +1,6 @@
 using SchoolAccount.FeatureManager.Core.Abstraction;
 
-namespace SchoolAccount.FeatureManager.Core.Extensions;
+namespace SchoolAccount.FeatureManager.Core.Providers;
 
 public sealed class InMemoryFeatureProvider(IReadOnlyDictionary<string, bool> flags) : IFeatureProvider
 {

@@ -1,6 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using SchoolAccount.FeatureManager.Core.Abstraction;
 using SchoolAccount.FeatureManager.Core.DependencyInjection;
+using SchoolAccount.FeatureManager.Core.Providers;
 
 namespace SchoolAccount.FeatureManager.Core.Extensions;
 
