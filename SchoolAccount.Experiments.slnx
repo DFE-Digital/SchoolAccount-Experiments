@@ -1,0 +1,17 @@
+<Solution>
+    <Folder Name="/SchoolAccount.FeautreManager/">
+        <Project Path="SchoolAccount.FeatureManager/SchoolAccount.FeatureManager.Azure/SchoolAccount.FeatureManager.Azure.csproj" />
+        <Project Path="SchoolAccount.FeatureManager/SchoolAccount.FeatureManager.Core/SchoolAccount.FeatureManager.Core.csproj" />
+    </Folder>
+    <Folder Name="/SchoolAccount.DistributedCache/">
+        <Project Path="SchoolAccount.DistributedCache/SchoolAccount.DistributedCache/SchoolAccount.DistributedCache.csproj" />
+    </Folder>
+    <Folder Name="/SchoolAccount.QueryEngine/">
+        <Project Path="SchoolAccount.QueryEngine/SchoolAccount.QueryEngine.Abstraction/SchoolAccount.QueryEngine.Abstraction.csproj" />
+        <Project Path="SchoolAccount.QueryEngine/SchoolAccount.QueryEngine.Core/SchoolAccount.QueryEngine.Core.csproj" />
+    </Folder>
+    <Folder Name="/solution/">
+        <File Path=".gitignore" />
+        <File Path="README.md" />
+    </Folder>
+</Solution>
