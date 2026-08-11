@@ -1,7 +1,12 @@
 <Solution>
-    <Folder Name="/SchoolAccount.FeautreManager/">
-        <Project Path="SchoolAccount.FeatureManager/SchoolAccount.FeatureManager.Azure/SchoolAccount.FeatureManager.Azure.csproj" />
-        <Project Path="SchoolAccount.FeatureManager/SchoolAccount.FeatureManager.Core/SchoolAccount.FeatureManager.Core.csproj" />
+    <Folder Name="/SchoolAccount.FeautreManager/src/">
+        <Project Path="SchoolAccount.FeatureManager/src/SchoolAccount.FeatureManager.Core/SchoolAccount.FeatureManager.Core.csproj" />
+        <Project Path="SchoolAccount.FeatureManager/src/SchoolAccount.FeatureManager.Azure/SchoolAccount.FeatureManager.Azure.csproj" />
+        <Project Path="SchoolAccount.FeatureManager/src/SchoolAccount.FeatureManager.AspNetCore/SchoolAccount.FeatureManager.AspNetCore.csproj" />
+        <Project Path="SchoolAccount.FeatureManager/src/SchoolAccount.FeatureManager.EntityFramework\SchoolAccount.FeatureManager.EntityFramework.csproj" />
+    </Folder>
+    <Folder Name="/SchoolAccount.FeautreManager/tests/">
+        <Project Path="SchoolAccount.FeatureManager/tests/SchoolAccount.FeatureManager.Core.Tests/SchoolAccount.FeatureManager.Core.Tests.csproj" />
     </Folder>
     <Folder Name="/SchoolAccount.DistributedCache/">
         <Project Path="SchoolAccount.DistributedCache/SchoolAccount.DistributedCache/SchoolAccount.DistributedCache.csproj" />
@@ -12,6 +17,7 @@
     </Folder>
     <Folder Name="/solution/">
         <File Path=".gitignore" />
+        <File Path="Directory.Build.props" />
         <File Path="README.md" />
     </Folder>
 </Solution>

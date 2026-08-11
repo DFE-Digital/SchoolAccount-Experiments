@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>SchoolAccount.FeatureManager.AspNetCore</AssemblyName>
+        <AssemblyVersion>0.0.1</AssemblyVersion>
+        <PackageId>SchoolAccount.FeatureManager.AspNetCore</PackageId>
+        <Description>HTTP-aware feature providers (cookie, header, query string).</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\SchoolAccount.FeatureManager.Core\SchoolAccount.FeatureManager.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+
+</Project>
