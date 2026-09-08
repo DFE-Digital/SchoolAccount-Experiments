@@ -12,13 +12,17 @@
         <Project Path="SchoolAccount.FeatureManager/tests/SchoolAccount.FeatureManager.Core.Tests/SchoolAccount.FeatureManager.Core.Tests.csproj" />
     </Folder>
     <Folder Name="/SchoolAccount.DistributedCache/">
-        <Project Path="SchoolAccount.DistributedCache/SchoolAccount.DistributedCache/SchoolAccount.DistributedCache.csproj" />
         <File Path="SchoolAccount.DistributedCache/README.md" />
+        <Project Path="SchoolAccount.DistributedCache/SchoolAccount.DistributedCache/SchoolAccount.DistributedCache.csproj" />
     </Folder>
     <Folder Name="/SchoolAccount.QueryEngine/">
-        <File Path="README.md" />
+        <File Path="SchoolAccount.QueryEngine/README.md" />
         <Project Path="SchoolAccount.QueryEngine/SchoolAccount.QueryEngine.Abstraction/SchoolAccount.QueryEngine.Abstraction.csproj" />
         <Project Path="SchoolAccount.QueryEngine/SchoolAccount.QueryEngine.Core/SchoolAccount.QueryEngine.Core.csproj" />
+    </Folder>
+    <Folder Name="/SchoolAccount.GovNotify/">
+        <File Path="SchoolAccount.GovNotify/README.md" />
+        <Project Path="SchoolAccount.GovNotify/SchoolAccount.GovNotify/SchoolAccount.GovNotify.csproj" />
     </Folder>
     <Folder Name="/solution/">
         <File Path=".gitignore" />
