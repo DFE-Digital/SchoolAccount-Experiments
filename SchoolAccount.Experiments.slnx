@@ -1,4 +1,7 @@
 <Solution>
+    <Folder Name="/SchoolAccount.FeautreManager/">
+        <File Path="SchoolAccount.FeautreManager/README.md" />
+    </Folder>
     <Folder Name="/SchoolAccount.FeautreManager/src/">
         <Project Path="SchoolAccount.FeatureManager/src/SchoolAccount.FeatureManager.Core/SchoolAccount.FeatureManager.Core.csproj" />
         <Project Path="SchoolAccount.FeatureManager/src/SchoolAccount.FeatureManager.Azure/SchoolAccount.FeatureManager.Azure.csproj" />
@@ -10,8 +13,10 @@
     </Folder>
     <Folder Name="/SchoolAccount.DistributedCache/">
         <Project Path="SchoolAccount.DistributedCache/SchoolAccount.DistributedCache/SchoolAccount.DistributedCache.csproj" />
+        <File Path="SchoolAccount.DistributedCache/README.md" />
     </Folder>
     <Folder Name="/SchoolAccount.QueryEngine/">
+        <File Path="README.md" />
         <Project Path="SchoolAccount.QueryEngine/SchoolAccount.QueryEngine.Abstraction/SchoolAccount.QueryEngine.Abstraction.csproj" />
         <Project Path="SchoolAccount.QueryEngine/SchoolAccount.QueryEngine.Core/SchoolAccount.QueryEngine.Core.csproj" />
     </Folder>
