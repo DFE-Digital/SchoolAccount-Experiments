@@ -51,7 +51,7 @@ public static class FeatureFlagsServiceCollectionExtensions
             options.Bind(optionsSections);
         }
         
-        services.TryAddScoped<IFeatureProviderManager, FeatureProviderProviderManager>();
+        //services.TryAddScoped<IFeatureProviderManager, FeatureProviderProviderManager>();
         services.TryAddScoped<ITargetingContextAccessor, EmptyTargetingContextAccessor>();
         
         return new FeatureFlagsBuilder(services);
